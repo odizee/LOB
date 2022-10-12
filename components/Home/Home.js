@@ -192,11 +192,11 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <Toaster />
-      {openModal && (
+      {/* {openModal && (
         <div className="m-10">
           <Modal closeModal={setOpenModal} />
         </div>
-      )}
+      )} */}
 
       <div className={styles.heading}>
         {/* <ToastContainer /> */}
